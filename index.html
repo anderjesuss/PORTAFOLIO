@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="js/sweetalert2@11.js"></script>
+
+      <title>Portafolio - Anderson Jesús Aquino</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+
+            <div class="nav__menu" id="nav-menu">
+               <sapn class="nav__title">Menú</sapn>
+
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#inicio" class="nav__link active-link">Inicio</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#acerca" class="nav__link">Acerca de mí</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#experiencia" class="nav__link">Experiencia en Desarrollo</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#proyectos" class="nav__link">Proyectos</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#contacto" class="nav__link">Contacto</a>
+                  </li>
+
+               </ul>
+
+               <!-- Boton Cerrar -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__buttons">
+               <!-- Boton de Tema-->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-5-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="inicio">
+            <div class="home__container container grid">
+               <h1 class="home__name">
+                  Anderson Aquino
+               </h1>
+               <div class="home__perfil">
+                  <div class="home__image">
+                     <img src="img/foto-perfil.jpg" alt="" class="home__img">
+                  </div>
+                  <div class="home__social">
+                     <a href="mailto:anderjesusaquino@outlook.es" target="_blank" class="home__social-link">
+                        <i class="ri-mail-line"></i>
+                     </a>
+
+                     <a href="https://www.linkedin.com/in/andersonjesusaquino" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+
+                     <a href="https://wa.me/+51916367713" target="_blank" class="home__social-link">
+                        <i class="ri-whatsapp-line"></i>
+                     </a>
+
+                     <a href="https://github.com/anderjesuss" target="_blank" class="home__social-link">
+                        <i class="ri-github-line"></i>
+                     </a>
+                  </div>
+               </div>
+               <div class="home__info">
+                  <p class="home__description">
+                     <b>Soy un desarrollador</b>, entusiasta por crear soluciones de software 
+                     eficientes y de calidad. Me encanta enfrentar nuevos desafíos y mejorar 
+                     constantemente mis habilidades en el desarrollo tanto de backend como de frontend.
+                  </p>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="acerca">
+            <div class="about__container container grid">
+               <h2 class="section__title-1">
+                  <span>Acerca de mí.</span>
+               </h2>
+
+               <div class="about__perfil">
+                  <div class="about__image">
+                     <img src="img/habilidades.png" alt="" class="about__img">
+
+                  </div>
+               </div>
+
+               <div class="about__info">
+                  <p class="about__description">
+                     Cuento con una carrera técnica en <b>Computación e Informática</b>, 
+                     que me ha dado una base sólida en desarrollo de software. Me 
+                     enfoco en crear soluciones prácticas que se adapten a las 
+                     necesidades de los usuarios y disfruto explorar nuevas tecnologías. 
+                     Me gusta trabajar en equipo, apoyar a mis colegas y colaborar 
+                     para alcanzar objetivos comunes.
+                  </p>
+
+                  <ul class="about__list">
+                     <li class="about__item">
+                        <b>Mis habilidades técnicas incluyen:</b> MySQL, SQL Server, MongoDB, 
+                        SQLite, Firebase, GitHub, Kotlin, Swift, Java, C#, Bootstrap y Angular.
+                     </li>
+                  </ul>
+
+                  <div class="about__buttons">
+                     <a href="https://drive.google.com/uc?export=download&id=1lwLs2-JXkJgdJOjgKoU9NQnIffhn0GGY" class="button button-neu">
+                           Descargar CV 
+                    </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section" id="experiencia">
+            <h2 class="section__title-1">
+               <span>Experiencia en Desarrollo.</span>
+            </h2>
+
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <i class="ri-database-2-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Gestión de base de datos</h2>
+
+                     <p class="services__description">
+                        Implementación eficiente de bases de datos en aplicaciones web y móviles, 
+                        facilitando el almacenamiento, recuperación y manipulación eficiente de 
+                        la información.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <i class="ri-code-box-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Aplicaciones Web</h2>
+                     
+                     <p class="services__description">
+                        Desarrollo de aplicaciones web personalizado, abarcando tanto 
+                        front-end como back-end, diseñado para proporcionar una 
+                        experiencia de usuario impecable. Además, creo soluciones que 
+                        optimizan procesos y mejoran la eficiencia del negocio.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <i class="ri-smartphone-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Aplicaciones Móviles</h2>
+
+                     <p class="services__description">
+                        Desarrollo aplicaciones móviles con Kotlin para Android y Swift 
+                        para iOS, integrando APIs y bases de datos como SQLite, Core Data y 
+                        Firebase para una experiencia de usuario fluida.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <i class="ri-building-line"></i>
+                     </div>
+
+                     <h2 class="services__title">Frameworks </h2>
+
+                     <p class="services__description">
+                        Durante mi carrera en Computación e Informática, he trabajado con 
+                        los frameworks Spring, Angular y Bootstrap para desarrollar aplicaciones 
+                        web completas, abarcando tanto el frontend como el backend.
+                     </p>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="proyectos">
+            <h2 class="section__title-1">
+               <span>Proyectos.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="img/SoftwareEscritorio.png" alt="image" class="projects__img">
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Software Escritorio</h3>
+                     <h2 class="projects__title">Panine Store</h2>
+
+                     <p class="projects__desciption">
+                        Desarrollé un sistema de escritorio para un minimarket que incluye módulos 
+                        de mantenimiento, consultas, transacciones y generación de reportes en PDF (básico). 
+                        Es un proyecto académico que ofrece una solución integral para la gestión de 
+                        inventarios y ventas.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/anderjesuss/PANINE-STORE.git" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+
+                     
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="img/HirakoBot.png" alt="image" class="projects__img">
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Bot</h3>
+                     <h2 class="projects__title">Hirako</h2>
+
+                     <p class="projects__desciption">
+                        Bot de Telegram que genera datos ficticios, como direcciones falsas, 
+                        para proteger la privacidad en actividades en línea. Los usuarios pueden 
+                        actualizar su información personal a través del chat, y el bot registra 
+                        y gestiona estos datos en una base de datos MySQL.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/anderjesuss/TELEGRAM-BOT-HIRAKO.git" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="img/LAAPS-MiCo.png" alt="image" class="projects__img">
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Sitio Web</h3>
+                     <h2 class="projects__title">LAAPS MiCo</h2>
+
+                     <p class="projects__desciption">
+                        Sistema web (LAAPS MiCo) de gestión de cobros de préstamos que permite 
+                        registrar clientes, gestionar préstamos y realizar seguimientos de pagos. 
+                        Además, el sistema genera reportes sobre el rendimiento financiero y el 
+                        estado de los préstamos.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/anderjesuss/GESTION-COBROS-DE-PRESTAMOS.git" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="img/AyudaFast.png" alt="image" class="projects__img">
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">App</h3>
+                     <h2 class="projects__title">Ayuda Fast</h2>
+
+                     <p class="projects__desciption">
+                        Ayuda Fast es una aplicación móvil que permite a los usuarios solicitar 
+                        servicios a domicilio de manera rápida y sencilla. Con un menú intuitivo, 
+                        la aplicación ofrece opciones variadas, brindando una experiencia ágil y 
+                        confiable para resolver sus necesidades desde cualquier lugar.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/DanielPRe15/AplicacionServicios.git" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+                  </div>
+               </article>
+
+            </div>
+         </section>
+
+         <!--==================== Sección Contacto ====================-->
+         <section class="contact section" id="contacto">
+            <h2 class="section__title-1">
+               <span>Contacto.</span>
+            </h2>
+            <div class="contact__container grid">
+               <div class="contact__data">
+                  <h2 class="section__title-2">
+                     <span>Nota.</span>
+                  </h2>
+
+                  <p class="contact__description-1">
+                     Envíame cualquier mensaje que desees y te responderé 
+                     al correo electrónico que ingresarás.
+                  </p>
+
+                  <p class="contact__description-2">
+                     Por favor, proporciona la siguiente información:
+                     <b>Nombres</b>, <b>Correo Electrónico</b>, <b>Tema o Asunto</b> y
+                     <b>Mensaje</b> (Explica por qué me envías el mensaje).
+                  </p>
+
+               </div>
+
+               <div class="contact__mail">
+                  <h2 class="contact__title">
+                     Envíeme un mensaje
+                  </h2>
+
+                  <form action="" class="contact__form" id="contact-form">
+                     <div class="contact__group">
+                        <div class="contact__box">
+                           <input type="text" name="user_name" class="contact__input" id="name" autocomplete="off" required placeholder="Nombres">
+                           <label for="name" class="contact__label">Nombres</label>
+                        </div>
+
+                        <div class="contact__box">
+                           <input type="email" name="user_email" class="contact__input" id="email" autocomplete="off" required placeholder="Correo Electrónico">
+                           <label for="email" class="contact__label">Correo Electrónico</label>
+                        </div>
+                     </div>
+
+                     <div class="contact__box">
+                        <input type="text" name="user_subject" class="contact__input" id="subject" autocomplete="off" required placeholder="Tema o Asunto">
+                        <label for="subject" class="contact__label">Tema o Asunto</label>
+                     </div>
+
+                     <div class="contact__box contact__area">
+                        <textarea name="user_message" id="message" class="contact__input" autocomplete="off" required placeholder="Mensaje"></textarea>
+                        <label for="message" class="contact__label">Mensaje</label>
+                     </div>
+
+                     <p class="contact__message" id="contact-message"></p>
+
+                     <button type="submit" class="contact__button button">
+                        <i class="ri-mail-send-line"></i> Enviar Mensaje
+                     </button>
+                  </form>
+               </div>
+
+               <div class="contact__social">
+                  <img src="img/curved-arrow.svg" alt="" class="contact__social-arrow">
+                  
+                  <div class="contact__social-data">
+                     <div>
+                        <p class="contact__social-description-1">
+                           Si no deseas enviarme un mensaje.
+                        </p>
+
+                        <p class="contact__social-description-2">
+                           Puedes escribirme en mis redes sociales.
+                        </p>
+                     </div>
+
+                     <div class="contact__social-links">
+                        <a href="https://www.facebook.com/profile.php?id=100093408674019" target="_blank" class="contact__social-link">
+                           <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="mailto:anderjesusaquino@outlook.es" target="_blank" class="contact__social-link">
+                           <i class="ri-mail-line"></i>
+                        </a>
+
+                        <a href="https://wa.me/+51916367713" target="_blank" class="contact__social-link">
+                           <i class="ri-whatsapp-line"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/andersonjesusaquino" target="_blank" class="contact__social-link">
+                           <i class="ri-linkedin-box-line"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#acerca" class="footer__link">Acerca de mí</a>
+               </li>
+
+               <li>
+                  <a href="#experiencia" class="footer__link">Experiencia en Desarrollo</a>
+               </li>
+
+               <li>
+                  <a href="#proyectos" class="footer__link">Proyectos</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               &#169; Todos los derechos reservados por
+               <a href="">Anderson A.</a>
+            </span>
+         </div>
+      </footer>
+      
+      <!--=============== EMAIL JS ===============-->
+      <script src="js/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="js/main.js"></script>
+   </body>
+</html>
